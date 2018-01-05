@@ -1,8 +1,13 @@
 ---
-layout: post
----
+title:  "如何在 Atom 和 WebStorm 上配置 React Native 的代码编辑环境"
+categories: 
+  - React-Native
+tags:
+  - React-Native
+  - React
+  - javascript
 
-# 如何在 Atom 和 WebStorm 上配置 React Native 的代码编辑环境
+---
 
 针对 React Native 的项目，这里主要介绍什么是 Eslint 和 Flow ，以及在 Atom 和 WebStorm 上如何配置它们。
 
@@ -21,7 +26,7 @@ ESLint 官方网站上的介绍：
 由于 ESLint 的灵活可配置，我们这里采用的是 airbnb 的 ESLint 规范并添加自己的配置，在当前 React Native 项目下打开终端，使用 `npm i -D` 或 `yarn add -D` 安装 `babel-eslint eslint eslint-config-airbnb eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react` 这些依赖库。
 
 在当前项目路径下创建 .eslintrc 文件，并编辑规则配置：
-```
+```json
 {
   "extends": "airbnb",
   "rules": {
@@ -58,7 +63,7 @@ ESLint 官方网站上的介绍：
 ### Eslint 在 Atom 上的配置
 1. 在 Atom 上打开 settings,  在 Install 中搜索并安装 `linter-eslint `。
 2. 验证 eslint 规则是否生效。在项目路径下新建或打开一个 js 文件，输入：
-```
+```javascript
 function foo() {
   const bar = 1;
   bar = 2;
@@ -72,7 +77,7 @@ Atom 会提示 `'foo' is defined but never used.` `'foo' is defined but never us
 
 1. WebStorm 打开项目后，在 Preferences -> Languages & Frameworks -> JavaScript -> Code quality tools -> ESLint 上将 Enable 勾上，指定 Eslint package 为当前项目路径下的 node_modules/eslint 。
 2. 验证 eslint 规则是否生效。在项目路径下新建或打开一个 js 文件，输入：
-```
+```javascript
 function foo() {
   const bar = 1;
   bar = 2;
