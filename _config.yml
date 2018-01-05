@@ -117,8 +117,8 @@ defaults:
     values:
       layout: single
       toc: true
-      toc_label: "Outline"
-      toc_icon: "heart"
+      toc_label: " outline"
+      toc_icon: "file-alt"
       share: true
       related: true
 

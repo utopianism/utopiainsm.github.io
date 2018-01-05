@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-01-06T02:24:18+08:00</updated><id>/</id><title type="html">utopianism</title><subtitle>This a personal blog:</subtitle><author><name>utopianism</name><email>oopsuto@gmail.com</email></author><entry><title type="html">如何在 Atom 和 WebStorm 上配置 React Native 的代码编辑环境</title><link href="/react-native/2018/01/02/config-react-native-at-Atom-and-WebStorm.html" rel="alternate" type="text/html" title="如何在 Atom 和 WebStorm 上配置 React Native 的代码编辑环境" /><published>2018-01-02T00:00:00+08:00</published><updated>2018-01-02T00:00:00+08:00</updated><id>/react-native/2018/01/02/config-react-native-at-Atom-and-WebStorm</id><content type="html" xml:base="/react-native/2018/01/02/config-react-native-at-Atom-and-WebStorm.html">&lt;p&gt;针对 React Native 的项目，这里主要介绍什么是 Eslint 和 Flow ，以及在 Atom 和 WebStorm 上如何配置它们。&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-01-06T03:02:03+08:00</updated><id>http://localhost:4000/</id><title type="html">utopianism</title><subtitle>This a personal blog:</subtitle><author><name>utopianism</name><email>oopsuto@gmail.com</email></author><entry><title type="html">如何在 Atom 和 WebStorm 上配置 React Native 的代码编辑环境</title><link href="http://localhost:4000/react-native/2018/01/02/config-react-native-at-Atom-and-WebStorm.html" rel="alternate" type="text/html" title="如何在 Atom 和 WebStorm 上配置 React Native 的代码编辑环境" /><published>2018-01-02T00:00:00+08:00</published><updated>2018-01-02T00:00:00+08:00</updated><id>http://localhost:4000/react-native/2018/01/02/config-react-native-at-Atom-and-WebStorm</id><content type="html" xml:base="http://localhost:4000/react-native/2018/01/02/config-react-native-at-Atom-and-WebStorm.html">&lt;p&gt;针对 React Native 的项目，这里主要介绍什么是 Eslint 和 Flow ，以及在 Atom 和 WebStorm 上如何配置它们。&lt;/p&gt;
 
 &lt;h2 id=&quot;eslint&quot;&gt;Eslint&lt;/h2&gt;
 
@@ -77,10 +77,10 @@
   &lt;li&gt;WebStorm 不能在保存时修复一些简单的规则错误（如果你知道怎么实现，请告诉我），但是可以通过设定快捷键运行 eslint 的自动修复。打开 Preferences -&amp;gt; Tools -&amp;gt; External tools，点击 + 按钮新建一个新的外部工具，命名为 ESLint Fix，按照下图配置此工具的参数：&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/eslint-fix-config-at-webstorm.png&quot; alt=&quot;eslint-fix-config-at-webstorm&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/eslint-fix-config-at-webstorm.png&quot; alt=&quot;eslint-fix-config-at-webstorm&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;设置完后，可以给 ESLint Fix 设置个快捷键，通过快捷键也可以实现类似 Atom 的自动修复功能：
-&lt;img src=&quot;/assets/eslint-fix-keymap-setting.png&quot; alt=&quot;flow-config-at-webstorm&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;http://localhost:4000/assets/eslint-fix-keymap-setting.png&quot; alt=&quot;flow-config-at-webstorm&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;flow&quot;&gt;Flow&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://flow.org/&quot;&gt;Flow&lt;/a&gt; 是 Facebook 推出的一个静态类型检查工具，可以在编写代码的时候对代码进行类型核对检查，减少 bug 的出现。&lt;/p&gt;
@@ -100,7 +100,7 @@
 
 &lt;h3 id=&quot;flow-在-webstorm-上的配置&quot;&gt;Flow 在 WebStorm 上的配置&lt;/h3&gt;
 
-&lt;p&gt;WebStorm 打开项目后，在 Preferences -&amp;gt; Languages &amp;amp; Frameworks -&amp;gt; JavaScript 上按下面截图配置：&lt;img src=&quot;/assets/flow-config-at-webstorm.png&quot; alt=&quot;flow-config-at-webstorm&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;WebStorm 打开项目后，在 Preferences -&amp;gt; Languages &amp;amp; Frameworks -&amp;gt; JavaScript 上按下面截图配置：&lt;img src=&quot;http://localhost:4000/assets/flow-config-at-webstorm.png&quot; alt=&quot;flow-config-at-webstorm&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;另外关于 Flow 在 React Native 项目上的一些细节实践将在另一篇文章介绍。&lt;/p&gt;
 
