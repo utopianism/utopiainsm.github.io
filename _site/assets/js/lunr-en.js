@@ -31,7 +31,7 @@ var store = [
       
       {
         "title": "如何在 Atom 和 WebStorm 上配置 React Native 的代码编辑环境",
-        "url": "/react-native/2018/01/02/config-react-native-at-Atom-and-WebStorm.html",
+        "url": "http://localhost:4000/react-native/2018/01/02/config-react-native-at-Atom-and-WebStorm.html",
         "excerpt": "针对 React Native 的项目，这里主要介绍什么是 Eslint 和 Flow ，以及在 Atom 和 WebStorm 上如何配置它们。 Eslint Eslint 作为静态代码检查工具，在团队代码中可以起到统一代码风格的作用，同时会适当降低代码编写过程中出现的一些非必要性错误。 ESLint 官方网站上的介绍： JavaScript 是一个动态的弱类型语言，在开发中比较容易出错。因为没有编译程序，为了寻找 JavaScript...",
         "teaser":
           
