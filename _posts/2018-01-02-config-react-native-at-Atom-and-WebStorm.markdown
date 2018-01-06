@@ -11,6 +11,8 @@ tags:
 
 针对 React Native 的项目，这里主要介绍什么是 Eslint 和 Flow ，以及在 Atom 和 WebStorm 上如何配置它们。
 
+完整详细的配置可参考这个项目：[RN_Boilerplate](https://github.com/utopianism/RN_boilerplate)
+
 ## Eslint
 
 [Eslint](https://eslint.org/) 作为静态代码检查工具，在团队代码中可以起到统一代码风格的作用，同时会适当降低代码编写过程中出现的一些非必要性错误。
@@ -107,9 +109,6 @@ function foo() {
 ### Flow 在 WebStorm 上的配置
 
 WebStorm 打开项目后，在 Preferences -> Languages & Frameworks -> JavaScript 上按下面截图配置：![flow-config-at-webstorm]({{ "/assets/flow-config-at-webstorm.png" | absolute_url }})
-
-
-
 
 
 另外关于 Flow 在 React Native 项目上的一些细节实践将在另一篇文章介绍。
