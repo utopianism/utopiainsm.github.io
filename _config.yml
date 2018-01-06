@@ -117,9 +117,9 @@ defaults:
       type: posts
     values:
       layout: single
-      toc: true
-      toc_label: " outline"
-      toc_icon: "file-alt"
+      # toc: true
+      # toc_label: " outline"
+      # toc_icon: "file-alt"
       share: true
       related: true
 
