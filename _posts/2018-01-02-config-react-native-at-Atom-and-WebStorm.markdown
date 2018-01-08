@@ -5,7 +5,7 @@ categories:
 tags:
   - React-Native
   - React
-  - javascript
+  - JavaScript
 
 ---
 
@@ -111,7 +111,7 @@ function foo() {
 WebStorm 打开项目后，在 Preferences -> Languages & Frameworks -> JavaScript 上按下面截图配置：![flow-config-at-webstorm]({{ "/assets/flow-config-at-webstorm.png" | absolute_url }})
 
 
-另外关于 Flow 在 React Native 项目上的一些细节实践将在另一篇文章介绍。
+另外关于 Flow 在 React Native 项目上的一些细节实践将在另一篇文章《[Flow 在 React Native 项目上的一些细节实践》]({{ "/react-native/2018/01/06/flow-type-at-react-native-project" | absolute_url }})介绍。
 
 End.
 
